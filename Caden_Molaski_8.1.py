@@ -13,10 +13,11 @@ print("Place your bakery order:")
 gluten_free = input("Are you gluten-free? (Y/N): ")
 
 # choose a dessert - ADD FOR LOOP HERE
-if gluten_free == "Y":
-   gluten_free = gluten_free_desserts
-else:
-    gluten_free = desserts
+for gluten in gluten_free:
+    if gluten_free == "Y":
+        gluten_free = gluten_free_desserts
+    else:
+        gluten_free = desserts
 
 #ADD FOR LOOP HERE
 for i in range(len(gluten_free)):
