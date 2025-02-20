@@ -41,5 +41,5 @@ print(dime_value)
 print(quarter_value)
    
 total = (penny_value + nickel_value + dime_value + quarter_value)
-print(total:.2f)
+print(total)
 
