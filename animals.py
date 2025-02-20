@@ -1,0 +1,10 @@
+animals = []
+animals.append('Shark')
+animals.append('Polar Bear')
+animals.append('Crow')
+animals.append('Deer')
+animals.append('Trout')
+print(len(animals))
+print(animals.count('Crow'))
+print(animals[-1])
+print(animals)
