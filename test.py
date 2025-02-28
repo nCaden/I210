@@ -1,14 +1,8 @@
-import first
+def print_selected_numbers(count):
+   for i in range(count):
+      number = int(input())
+      if (number % 4) == 0:
+         print(number)
 
-def fct_a(number):
-    return number ** 2
-
-def fct_b(number):
-    return number * 7
-
-def fct_c(number):
-    return fct_a(number) - fct_b(number)
-
-print(fct_c(4))
-print(first.fct_c(4))
-print(first.fct_d(4))
+num_count = 7
+print_selected_numbers(num_count)
