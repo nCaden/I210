@@ -1,4 +1,10 @@
-from math import pow, pi
-radius = float(input("Enter the radius of the sphere: "))
-area = 4 * math.pi * math.pow(radius, 2)
-print("The area of the sphere is:", area)
+employee_name = 'N/A'
+
+def get_name():
+    print(f'Employee name: {employee_name}')
+
+def get_name():
+    global employee_name
+    name = input('Enter employee name:')
+    employee_name = name
+
