@@ -1,7 +1,3 @@
-user_values = [1, 6, 8, 3]
-
-max_value = user_values[0]
-for n in range(len(user_values)):
-  if user_values[n] >= max_value:
-    max_value = user_values[n]
-    print(max_value)
+my_list = [-3, -2, -1, 0, 1, 2, 3]
+new_list = [ number * 3 for number in my_list if (number <= 2) and (number % 2 == 0) ]
+print(new_list)
