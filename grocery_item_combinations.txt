@@ -1,0 +1,10 @@
+Ramen Bread
+Ramen Milk
+Ramen Eggs
+Ramen Coffee
+Bread Milk
+Bread Eggs
+Bread Coffee
+Milk Eggs
+Milk Coffee
+Eggs Coffee
