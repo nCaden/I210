@@ -1,10 +1,10 @@
-employee_name = 'N/A'
+try:
+    number1 = int(input())
+    print(number1 * 3)
 
-def get_name():
-    print(f'Employee name: {employee_name}')
-
-def get_name():
-    global employee_name
-    name = input('Enter employee name:')
-    employee_name = name
+    number2 = int(input())
+    print(number2 * 3)
+except:
+    print('x')
+print('e')
 
